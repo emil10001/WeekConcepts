@@ -1,0 +1,36 @@
+{{ var user = getUser(project.uid); "" }}
+<table>
+    <tr>
+        <td><img
+                src="https://lh6.googleusercontent.com/-8CcITalUXe8/UoWd17upwfI/AAAAAAABgbs/09gxoamduSY/w1970-h1478-no/1384488342911.jpg">
+            <img
+                    ng-src="{{project.image}}">
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="https://secure.gravatar.com/avatar/bc6e3312f288a4d00ba25500a2c8f6d9">
+            <img ng-src="{{user.avatar}}">
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td>
+                        emil10001
+                        {{user.username}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        9001
+                        {{ user.score}}
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td>Project0 {{project.name}}</td>
+    </tr>
+    <tr>
+        <td>not yet {{project.description}}</td>
+    </tr>
+</table>

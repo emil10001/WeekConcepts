@@ -1,0 +1,34 @@
+<table>
+    <tr>
+        <td>
+            <img src="https://secure.gravatar.com/avatar/bc6e3312f288a4d00ba25500a2c8f6d9">
+            <img ng-src="{{user.avatar}}">
+        </td>
+        <td>
+            <table>
+                <tr>
+                    <td>
+                        emil10001
+                        {{user.username}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        9001
+                        {{ user.score}}
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Github
+                        {{ user.github }}
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+<div ng-repeat="project in getUserProjects(id)">
+    <div ng-include="'views/partials/miniproject.html'"></div>
+    <div ng-include="project.miniurl"></div>
+</div>
