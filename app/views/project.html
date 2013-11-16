@@ -1,9 +1,35 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title></title>
-</head>
-<body>
-
-</body>
-</html>
+<div class="project">
+    <table>
+        <tr>
+            <td>
+                <img src="https://lh6.googleusercontent.com/-8CcITalUXe8/UoWd17upwfI/AAAAAAABgbs/09gxoamduSY/w1970-h1478-no/1384488342911.jpg" width="600px">
+                <img ng-src="{{project.image}}" width="600px">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Project0
+                {{project.title}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5
+                {{ project.score}}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Github
+                {{ project.github }}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Link
+                {{ project.link }}
+            </td>
+        </tr>
+    </table>
+    <div ng-include="'views/partials/miniprofile.html'"></div>
+</div>
