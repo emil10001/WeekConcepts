@@ -3,6 +3,7 @@
 myApp.controller('MainCtrl', function ($scope, $rootScope, Constants, ProjectService, UsersService) {
     $scope.projects = {};
     $scope.users = {};
+    $scope.user = {};
 
     $scope.$on(Constants.UPDATE_PROJECTS, function (event, data) {
         console.log('updating projects', data);
@@ -11,6 +12,7 @@ myApp.controller('MainCtrl', function ($scope, $rootScope, Constants, ProjectSer
     $scope.$on(Constants.UPDATE_USERS, function (event, data) {
         console.log('updating users', data);
         $scope.users = data;
+        $scope.user = UsersService.getUser(0);
     });
 
     $rootScope.$broadcast(Constants.INIT_LOAD);

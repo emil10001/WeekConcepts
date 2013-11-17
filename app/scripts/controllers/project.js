@@ -4,15 +4,30 @@
 myApp.controller('ProjectCtrl', function ($scope, $rootScope, $routeParams, Constants, ProjectService, UsersService) {
     $scope.projectId = $routeParams.projectId;
     $scope.project = ProjectService.getProject($scope.projectId);
+    $scope.user = {};
+
 
     $scope.$on(Constants.UPDATE_PROJECTS, function () {
         console.log('updating project');
         $scope.project = ProjectService.getProject($scope.projectId);
+        $rootScope.$broadcast(Constants.INIT_USER);
+    });
+    $scope.$on(Constants.UPDATE_USERS, function (event, data) {
+        console.log('updating users');
+        if (!!$scope.project)
+            $scope.user = UsersService.getUser($scope.project.uid);
+
+        console.log('getUser', $scope.user);
     });
 
+
     (function () {
-        if (!!$scope.project)
-            return;
-        $rootScope.$broadcast(Constants.INIT_LOAD);
+        if (!!$scope.project) {
+            $scope.user = UsersService.getUser($scope.project.uid);
+            if (!!$scope.user)
+                return;
+        }
+
+        $rootScope.$broadcast(Constants.INIT_PROJECT);
     })();
 });
