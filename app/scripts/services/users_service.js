@@ -9,7 +9,7 @@ myService.service('UsersService', function ($rootScope, $http, Constants) {
                 .success(function (data, status, headers, config) {
                     self.users = data;
                     console.log('emitting users');
-                    $rootScope.$emit(Constants.UPDATE_USERS, self.users);
+                    $rootScope.$broadcast(Constants.UPDATE_USERS, self.users);
                 });
         });
 

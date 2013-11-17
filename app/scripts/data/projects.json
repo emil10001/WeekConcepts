@@ -5,7 +5,7 @@
         "title": "Project0",
         "image": "https://lh6.googleusercontent.com/-8CcITalUXe8/UoWd17upwfI/AAAAAAABgbs/09gxoamduSY/w1970-h1478-no/1384488342911.jpg",
         "description": "This site. Just enough to get a display with this project showing.",
-        "content": "Nothing to report yet, except  <img src=\"https://lh6.googleusercontent.com/-8CcITalUXe8/UoWd17upwfI/AAAAAAABgbs/09gxoamduSY/w1970-h1478-no/1384488342911.jpg\">  <br> and this: <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\">",
+        "content": "Nothing to report yet, except  <img src=\"https://lh6.googleusercontent.com/-8CcITalUXe8/UoWd17upwfI/AAAAAAABgbs/09gxoamduSY/w1970-h1478-no/1384488342911.jpg\" width='600px'>  <br> and this: <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'>",
         "goals": [
             {
                 "profile view": false
@@ -39,8 +39,8 @@
         "end time": 1385109786160,
         "score": 0,
         "high_fives": 0,
-        "github": "",
-        "project_link": ""
+        "github": "https://bitbucket.org/emil10001/weekconcept",
+        "project_link": "https://bitbucket.org/emil10001/weekconcept"
 
     }
 ]

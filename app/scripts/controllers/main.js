@@ -4,12 +4,12 @@ myApp.controller('MainCtrl', function ($scope, $rootScope, Constants, ProjectSer
     $scope.projects = {};
     $scope.users = {};
 
-    $rootScope.$on(Constants.UPDATE_PROJECTS, function (data) {
-        console.log('updating projects');
+    $scope.$on(Constants.UPDATE_PROJECTS, function (event, data) {
+        console.log('updating projects', data);
         $scope.projects = data;
     });
-    $rootScope.$on(Constants.UPDATE_USERS, function (data) {
-        console.log('updating users');
+    $scope.$on(Constants.UPDATE_USERS, function (event, data) {
+        console.log('updating users', data);
         $scope.users = data;
     });
 

@@ -25,6 +25,10 @@ myApp.config(function ($routeProvider) {
             templateUrl: 'views/partials/miniproject.html',
             controller: 'ProjectCtrl'
         })
+        .when('/project/:projectId', {
+            templateUrl: 'views/project.html',
+            controller: 'ProjectCtrl'
+        })
         .otherwise({
             redirectTo: '/'
         });
