@@ -1,3 +1,4 @@
+{{ user = getUser(project); "" }}
 <div class="miniproject col-md-3">
     <table>
         <tr>
@@ -7,13 +8,13 @@
         </tr>
         <tr>
             <td>{{project.title}}</td>
-            <td>{{project.score}}</td>
+            <td>Score: {{project.score}}</td>
         </tr>
         <tr>
             <td colspan="2">{{project.description}}</td>
         </tr>
         <tr>
-            <td colspan="2">
+            <td>
                 <div ng-include="'views/partials/miniprofile.html'"></div>
             </td>
         </tr>

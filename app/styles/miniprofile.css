@@ -1,12 +1,21 @@
 .miniprofile {
-    background-color: #ffcaca;
-    margin-bottom: 30px;
+    width: 100%;
+    left: 0px;
+    background-color: #7E8B91;
     margin-right: 50px;
     margin-left: 0px;
     padding-left: 0px;
+    padding-bottom: 0px;
+    color: #fdf7f7;
+    max-width: 200px;
+    float: left;
 }
 
-.miniproject table {
-    width: 100%;
-    background-color: #ffcaca;
+.miniprofile img {
+    max-height: 80px;
+    max-width: 80px;
+}
+
+.miniprofile a {
+    color: #fdf7f7;
 }

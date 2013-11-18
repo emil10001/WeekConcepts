@@ -1,7 +1,7 @@
 "use strict";
 
 myService.service('UsersService', function ($rootScope, $http, Constants) {
-        this.usersById = {};
+        this.usersById = null;
         this.users = {};
         var self = this;
 
@@ -20,7 +20,7 @@ myService.service('UsersService', function ($rootScope, $http, Constants) {
         };
 
         this.getUser = function (id) {
-            if (!this.usersById || this.usersById === {}) {
+            if (!this.usersById || this.usersById === {} || this.usersById === undefined) {
                 console.log('usersById not filled in');
                 return null;
             }

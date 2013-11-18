@@ -7,7 +7,7 @@ myApp.controller('MyProfileCtrl', function ($scope, $rootScope, $routeParams, Co
     $scope.me = MyProfileService.me;
 
     $scope.$on(Constants.UPDATE_ME, function (event, data) {
-        console.log('updating me', $scope.me);
+        console.log('updating me', data);
         $scope.me = data;
     });
 

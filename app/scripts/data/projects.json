@@ -44,7 +44,7 @@
     },
     {
         "id": 1,
-        "uid": 0,
+        "uid": 1,
         "title": "Dummy Project1",
         "image": "https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg",
         "description": "This site. Just enough to get a display with this project showing.",
@@ -130,7 +130,7 @@
     },
     {
         "id": 3,
-        "uid": 0,
+        "uid": 1,
         "title": "Dummy Project3",
         "image": "https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg",
         "description": "This site. Just enough to get a display with this project showing.",

@@ -1,5 +1,5 @@
 .sidebar {
-    background-color:#e8e8e8;
+    background-color:#7E8B91;
     width: 20%;
     max-width: 200px;
     min-width: 0px;
@@ -9,4 +9,8 @@
     top:0px;
     right:0px;
     z-index: 1002;
+}
+
+.sidebar a {
+    color: #fdf7f7;
 }
