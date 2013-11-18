@@ -1,9 +1,7 @@
 <div ng-include="'views/partials/topside.html'"></div>
 <div class="mycontent pull-left">
     <div ng-repeat="project in projects">
-        <a ng-href="{{getProjectUrl(project)}}">
-            <div ng-include src="'views/partials/miniproject.html'"></div>
-        </a>
+        <div ng-include src="'views/partials/miniproject.html'"></div>
     </div>
 </div>
 

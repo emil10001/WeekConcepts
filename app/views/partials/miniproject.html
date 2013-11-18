@@ -1,17 +1,20 @@
 {{ user = getUser(project); "" }}
-<div class="miniproject col-md-3">
-    <table>
-        <tr>
-            <td colspan="2">
-                <img ng-src="{{project.image}}" width="100%">
-            </td>
-        </tr>
-        <tr>
-            <td>{{project.title}}</td>
-            <td>Score: {{project.score}}</td>
-        </tr>
-        <tr>
-            <td colspan="2">{{project.description}}</td>
-        </tr>
-    </table>
-</div>
+<a ng-href="{{getProjectUrl(project)}}">
+    <div class="miniproject col-md-3">
+        <img ng-src="{{project.image}}" width="100%">
+
+        <span class="onhover1"></span>
+        <div class="onhover">
+            {{project.description}}
+            <div ng-include="'views/partials/miniprofile.html'"></div>
+        </div>
+
+        <table>
+            <tr>
+                <td>{{project.title}}</td>
+                <td>Score: {{project.score}}</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+</a>

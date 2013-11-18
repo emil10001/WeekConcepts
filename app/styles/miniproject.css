@@ -7,6 +7,7 @@
     padding-right: 0px;
     padding-bottom: 0px;
     box-shadow: 0px 5px 15px #5E5E5E;
+    overflow: hidden;
     color: #fdf7f7;
 }
 
@@ -17,4 +18,30 @@
 
 .miniproject a {
     color: #fdf7f7;
+}
+
+.miniproject .onhover {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.miniproject .onhover1 {
+    display: none;
+    background-color: #000000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.miniproject:hover .onhover{
+    display: block;
+}
+.miniproject:hover .onhover1{
+    display: block;
+    opacity: 0.5;
 }

@@ -22,6 +22,17 @@ myApp.controller('ProjectCtrl', function ($scope, $rootScope, $routeParams, Cons
         console.log('getUser', $scope.user);
     });
 
+    $scope.getMiniUrl = function (proj) {
+        if (!proj)
+            return "";
+        return "mini/" + proj.id;
+    };
+    $scope.getProjectUrl = function (proj) {
+        if (!proj)
+            return "";
+        return "#/project/" + proj.id;
+    };
+
     (function () {
         if (!!$scope.project) {
             $scope.user = UsersService.getUser($scope.project.uid);

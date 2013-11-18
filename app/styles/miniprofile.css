@@ -19,3 +19,7 @@
 .miniprofile a {
     color: #fdf7f7;
 }
+
+.miniproject .miniprofile {
+    background: none;
+}
