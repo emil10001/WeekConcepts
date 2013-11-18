@@ -1,4 +1,30 @@
-<div class="pull-right">
-    <div ng-include="'views/partials/miniprofile.html'"></div>
+<div class="sidebar pull-right" ng-controller="MyProfileCtrl">
+    <a ng-href="{{getMyProfileUrl()}}">
+        <table>
+            <tr>
+                <td><h3>Me:</h3></td>
+            </tr>
+            <tr>
+                <td>
+                    <img ng-src="{{me.avatar}}">
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                {{me.username}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Score:
+                                {{ me.score}}
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </a>
     <br>
 </div>

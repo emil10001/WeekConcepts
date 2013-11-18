@@ -1,44 +1,46 @@
-<div class="project">
-    <table>
-        <tr>
-            <td>
-                <h2>{{project.title}}</h2>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img ng-src="{{project.image}}" width="600px">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Score:
-                {{ project.score}}
-            </td>
-            <td>
-                High Fives:
-                {{ project.high_fives}}
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Github
-                {{ project.github }}
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Link
-                {{ project.link }}
-            </td>
-        </tr>
-        <tr>
-            <td>
-                Content
-                <div ng-bind-html="project.content">
-                </div>
-            </td>
-        </tr>
-    </table>
-    <div ng-include="'views/partials/miniprofile.html'"></div>
+<div ng-include="'views/partials/topside.html'"></div>
+<div class="mycontent">
+    <div class="project">
+        <table>
+            <tr>
+                <td  colspan="2">
+                    <h2>{{project.title}}</h2>
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="2">
+                    <img ng-src="{{project.image}}" width="600px">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Score:
+                    {{ project.score}}
+                </td>
+                <td>
+                    High Fives:
+                    {{ project.high_fives}}
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="2">
+                    <a ng-href="{{ project.github }}">Github</a>
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="2">
+
+                    <a ng-href="{{ project.link }}">Link</a>
+                </td>
+            </tr>
+            <tr>
+                <td  colspan="2">
+                    Content
+                    <div ng-bind-html="project.content">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div ng-include="'views/partials/miniprofile.html'"></div>
+    </div>
 </div>

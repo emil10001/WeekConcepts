@@ -1,35 +1,21 @@
-<div class="miniproject">
+<div class="miniproject col-md-3">
     <table>
         <tr>
-            <td>
-                <img ng-src="{{project.image}}" width="150px">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img ng-src="{{user.avatar}}">
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>
-                            User:
-                            {{user.username}}
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            {{ project.score}}
-                        </td>
-                    </tr>
-                </table>
+            <td colspan="2">
+                <img ng-src="{{project.image}}" width="100%">
             </td>
         </tr>
         <tr>
             <td>{{project.title}}</td>
+            <td>{{project.score}}</td>
         </tr>
         <tr>
-            <td>{{project.description}}</td>
+            <td colspan="2">{{project.description}}</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <div ng-include="'views/partials/miniprofile.html'"></div>
+            </td>
         </tr>
     </table>
 </div>

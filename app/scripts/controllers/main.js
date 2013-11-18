@@ -1,6 +1,6 @@
 'use strict';
 
-myApp.controller('MainCtrl', function ($scope, $rootScope, Constants, ProjectService, UsersService) {
+myApp.controller('MainCtrl', function ($scope, $rootScope, Constants, ProjectService, UsersService, MyProfileService) {
     $scope.projects = {};
     $scope.users = {};
     $scope.user = {};
@@ -15,11 +15,17 @@ myApp.controller('MainCtrl', function ($scope, $rootScope, Constants, ProjectSer
         $scope.user = UsersService.getUser(0);
     });
 
-    $rootScope.$broadcast(Constants.INIT_LOAD);
-
     $scope.getMiniUrl = function (proj) {
         if (!proj)
             return "";
         return "mini/" + proj.id;
-    }
+    };
+    $scope.getProjectUrl = function (proj) {
+        if (!proj)
+            return "";
+        return "#/project/" + proj.id;
+    };
+
+    $rootScope.$broadcast(Constants.INIT_LOAD);
+
 });

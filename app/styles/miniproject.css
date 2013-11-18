@@ -1,0 +1,14 @@
+.miniproject {
+    background-color: #ffdddd;
+    margin-bottom: 30px;
+    margin-right: 50px;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0px 5px 15px #5E5E5E;
+}
+
+.miniproject table {
+    width: 100%;
+    background-color: #ffdddd;
+}

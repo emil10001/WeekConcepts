@@ -1,6 +1,8 @@
 /**
  * Created by ejf3 on 11/14/13.
  */
+"use strict";
+
 myApp.controller('ProjectCtrl', function ($scope, $rootScope, $routeParams, Constants, ProjectService, UsersService) {
     $scope.projectId = $routeParams.projectId;
     $scope.project = ProjectService.getProject($scope.projectId);
@@ -19,7 +21,6 @@ myApp.controller('ProjectCtrl', function ($scope, $rootScope, $routeParams, Cons
 
         console.log('getUser', $scope.user);
     });
-
 
     (function () {
         if (!!$scope.project) {

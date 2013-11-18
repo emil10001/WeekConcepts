@@ -5,7 +5,7 @@
         "title": "Project0",
         "image": "https://lh6.googleusercontent.com/-8CcITalUXe8/UoWd17upwfI/AAAAAAABgbs/09gxoamduSY/w1970-h1478-no/1384488342911.jpg",
         "description": "This site. Just enough to get a display with this project showing.",
-        "content": "Nothing to report yet, except  <img src=\"https://lh6.googleusercontent.com/-8CcITalUXe8/UoWd17upwfI/AAAAAAABgbs/09gxoamduSY/w1970-h1478-no/1384488342911.jpg\" width='600px'>  <br> and this: <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'>",
+        "content": "Nothing to report yet, except this: <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'>",
         "goals": [
             {
                 "profile view": false
@@ -40,7 +40,178 @@
         "score": 0,
         "high_fives": 0,
         "github": "https://bitbucket.org/emil10001/weekconcept",
-        "project_link": "https://bitbucket.org/emil10001/weekconcept"
-
+        "link": "http://weekconcepts.com"
+    },
+    {
+        "id": 1,
+        "uid": 0,
+        "title": "Dummy Project1",
+        "image": "https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg",
+        "description": "This site. Just enough to get a display with this project showing.",
+        "content": "Nothing to report yet, except this: <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'>",
+        "goals": [
+            {
+                "profile view": false
+            },
+            {
+                "main view": false
+            },
+            {
+                "side bar": true
+            },
+            {
+                "project view": false
+            },
+            {
+                "mini project view": true
+            },
+            {
+                "project data": true
+            },
+            {
+                "user data": true
+            },
+            {
+                "controllers for each view": false
+            },
+            {
+                "high five asset": false
+            }
+        ],
+        "start time": 1384490671375,
+        "end time": 1385109786160,
+        "score": 0,
+        "high_fives": 0,
+        "github": "https://bitbucket.org/emil10001/weekconcept",
+        "link": "http://weekconcepts.com"
+    },
+    {
+        "id": 2,
+        "uid": 0,
+        "title": "Dummy Project2",
+        "image": "https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg",
+        "description": "This site. Just enough to get a display with this project showing.",
+        "content": "Nothing to report yet, except this: <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'>",
+        "goals": [
+            {
+                "profile view": false
+            },
+            {
+                "main view": false
+            },
+            {
+                "side bar": true
+            },
+            {
+                "project view": false
+            },
+            {
+                "mini project view": true
+            },
+            {
+                "project data": true
+            },
+            {
+                "user data": true
+            },
+            {
+                "controllers for each view": false
+            },
+            {
+                "high five asset": false
+            }
+        ],
+        "start time": 1384490671375,
+        "end time": 1385109786160,
+        "score": 0,
+        "high_fives": 0,
+        "github": "https://bitbucket.org/emil10001/weekconcept",
+        "link": "http://weekconcepts.com"
+    },
+    {
+        "id": 3,
+        "uid": 0,
+        "title": "Dummy Project3",
+        "image": "https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg",
+        "description": "This site. Just enough to get a display with this project showing.",
+        "content": "Nothing to report yet, except this: <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'>",
+        "goals": [
+            {
+                "profile view": false
+            },
+            {
+                "main view": false
+            },
+            {
+                "side bar": true
+            },
+            {
+                "project view": false
+            },
+            {
+                "mini project view": true
+            },
+            {
+                "project data": true
+            },
+            {
+                "user data": true
+            },
+            {
+                "controllers for each view": false
+            },
+            {
+                "high five asset": false
+            }
+        ],
+        "start time": 1384490671375,
+        "end time": 1385109786160,
+        "score": 0,
+        "high_fives": 0,
+        "github": "https://bitbucket.org/emil10001/weekconcept",
+        "link": "http://weekconcepts.com"
+    },
+    {
+        "id": 4,
+        "uid": 0,
+        "title": "Dummy Project4",
+        "image": "https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg",
+        "description": "This site. Just enough to get a display with this project showing.",
+        "content": "Nothing to report yet, except this: <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'>",
+        "goals": [
+            {
+                "profile view": false
+            },
+            {
+                "main view": false
+            },
+            {
+                "side bar": true
+            },
+            {
+                "project view": false
+            },
+            {
+                "mini project view": true
+            },
+            {
+                "project data": true
+            },
+            {
+                "user data": true
+            },
+            {
+                "controllers for each view": false
+            },
+            {
+                "high five asset": false
+            }
+        ],
+        "start time": 1384490671375,
+        "end time": 1385109786160,
+        "score": 0,
+        "high_fives": 0,
+        "github": "https://bitbucket.org/emil10001/weekconcept",
+        "link": "http://weekconcepts.com"
     }
 ]

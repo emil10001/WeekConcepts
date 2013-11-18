@@ -1,24 +1,26 @@
-<div class="miniprofile">
-    <table>
-        <tr>
-            <td>
-                <img ng-src="{{user.avatar}}" >
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>
-                            {{user.username}}
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Score:
-                            {{ user.score}}
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-</div>
+<a ng-href="{{ '#/profile/' + user.id }}">
+    <div class="miniprofile  col-md-3">
+        <table>
+            <tr>
+                <td colspan="2">
+                    <img ng-src="{{user.avatar}}">
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                {{user.username}}
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Score:
+                                {{ user.score}}
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+    </div>
+</a>

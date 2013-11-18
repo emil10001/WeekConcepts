@@ -1,9 +1,9 @@
-<div>
-    <h3 class="pull-left text-muted">Week Concepts</h3>
-</div>
-<div ng-include="'views/partials/sidebar.html'"></div>
-
-<div ng-repeat="project in projects">
-    <div ng-include="getMiniUrl(project)"></div>
+<div ng-include="'views/partials/topside.html'"></div>
+<div class="mycontent pull-left">
+    <div ng-repeat="project in projects">
+        <a ng-href="{{getProjectUrl(project)}}">
+            <div ng-include src="'views/partials/miniproject.html'"></div>
+        </a>
+    </div>
 </div>
 
