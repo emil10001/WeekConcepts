@@ -1,24 +1,41 @@
 .myheader {
     padding-left: 0px;
-    background-color: #EAFFC7;
+    /*background-color: #EAFFC7;*/
+    background-color: #5cd6ff;
     width: 100%;
+    float: left;
     height: 60px;
     box-shadow: 0px 1px 50px #5E5E5E;
     position: fixed;
     top: 0px;
     left: 0px;
-    color: #FF563F;
+    /*color: #FF563F;*/
+    color: #555555;
     z-index: 1000;
 }
+
 .myheader a {
-    color: #FF563F;
+    /*color: #FF563F;*/
+    color: #555555;
 }
 
 .myheader h3 {
     left: 15px;
+    top: 0;
+    padding-top: 0px;
+    margin-top: 0px;
     position: absolute;
     font-family: sans-serif;
     font-size: 2.5em;
 }
 
-
+.myheader em {
+    left: 15px;
+    top: 40px;
+    padding-top: 0px;
+    margin-top: 0px;
+    color: #777777;
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 1.0em;
+}
