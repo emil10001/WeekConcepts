@@ -40,7 +40,9 @@
         "score": 0,
         "high_fives": 0,
         "github": "https://bitbucket.org/emil10001/weekconcept",
-        "link": "http://weekconcepts.com"
+        "link": "http://weekconcepts.com",
+        "parent-id":0,
+        "org-id":0
     },
     {
         "id": 1,
