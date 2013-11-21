@@ -8,31 +8,36 @@
         "content": "Nothing to report yet, except this: <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'>",
         "goals": [
             {
-                "profile view": false
+                "text": "profile view",
+                "done": true
             },
             {
-                "main view": false
+                "text": "main view",
+                "done": true
             },
             {
-                "side bar": true
+                "text": "side bar",
+                "done": true
             },
             {
-                "project view": false
+                "text": "project view",
+                "done": true
             },
             {
-                "mini project view": true
+                "text": "mini project view",
+                "done": true
             },
             {
-                "project data": true
+                "text": "project data",
+                "done": true
             },
             {
-                "user data": true
+                "text": "user data",
+                "done": true
             },
             {
-                "controllers for each view": false
-            },
-            {
-                "high five asset": false
+                "text": "controllers for each view",
+                "done": true
             }
         ],
         "start time": 1384490671375,
@@ -41,179 +46,84 @@
         "high_fives": 0,
         "github": "https://bitbucket.org/emil10001/weekconcept",
         "link": "http://weekconcepts.com",
-        "parent-id":0,
-        "org-id":0
+        "parent-id": 0,
+        "org-id": 0
     },
     {
         "id": 1,
-        "uid": 1,
-        "title": "Dummy Project1",
-        "image": "https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg",
-        "description": "This site. Just enough to get a display with this project showing.",
-        "content": "Nothing to report yet, except this: <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'>",
+        "uid": 0,
+        "title": "PodRad.io",
+        "image": "http://files.feigdev.com/wc/podradio.png",
+        "description": "A very simple web podcast app",
+        "content": "A very simple web podcast app",
         "goals": [
             {
-                "profile view": false
+                "text": "list of podcasts",
+                "done": true
             },
             {
-                "main view": false
+                "text": "subscribe to podcasts",
+                "done": true
             },
             {
-                "side bar": true
+                "text": "unsubscribe from podcasts",
+                "done": true
             },
             {
-                "project view": false
+                "text": "parse podcast xml",
+                "done": true
             },
             {
-                "mini project view": true
-            },
-            {
-                "project data": true
-            },
-            {
-                "user data": true
-            },
-            {
-                "controllers for each view": false
-            },
-            {
-                "high five asset": false
+                "text": "play podcasts",
+                "done": true
             }
+
         ],
         "start time": 1384490671375,
         "end time": 1385109786160,
         "score": 0,
         "high_fives": 0,
-        "github": "https://bitbucket.org/emil10001/weekconcept",
-        "link": "http://weekconcepts.com"
+        "github": "https://github.com/emil10001/podrad.io",
+        "link": "http://podrad.io"
     },
     {
         "id": 2,
         "uid": 0,
-        "title": "Dummy Project2",
-        "image": "https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg",
-        "description": "This site. Just enough to get a display with this project showing.",
-        "content": "Nothing to report yet, except this: <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'>",
+        "title": "RedditMail",
+        "image": "http://files.feigdev.com/wc/OrangeEnvelope_cropped.png",
+        "description": "A simple Android app that checks your Reddit mailbox",
+        "content": "This is an app that handles your Reddit Mail. It gives you access to your inbox, sent items, friends list and friend's comments. You can send a message from any of the views, either directly to a user as a private message, or as a comment on a thread. Refresh happens automatically when you open the app, or you can use the icon on the action bar to manually refresh your messages. <br> <img src=\"http://files.feigdev.com/redditmail_1_login.png\" alt=\"login screenshot\" width=\"220px\"> _<img src=\"http://files.feigdev.com/redditmail_2_inbox.png\" alt=\"inbox screenshot\" width=\"220px\"> _<img src=\"http://files.feigdev.com/redditmail_3_compose.png\" alt=\"compose message screenshot\" width=\"220px\">",
         "goals": [
             {
-                "profile view": false
+                "text": "login to reddit",
+                "done": true
             },
             {
-                "main view": false
+                "text": "parse reddit api",
+                "done": true
             },
             {
-                "side bar": true
+                "text": "check reddit mail",
+                "done": true
             },
             {
-                "project view": false
+                "text": "list reddit friends",
+                "done": true
             },
             {
-                "mini project view": true
+                "text": "find friends comments",
+                "done": true
             },
             {
-                "project data": true
-            },
-            {
-                "user data": true
-            },
-            {
-                "controllers for each view": false
-            },
-            {
-                "high five asset": false
+                "text": "send reddit messages",
+                "done": true
             }
         ],
         "start time": 1384490671375,
         "end time": 1385109786160,
         "score": 0,
         "high_fives": 0,
-        "github": "https://bitbucket.org/emil10001/weekconcept",
-        "link": "http://weekconcepts.com"
-    },
-    {
-        "id": 3,
-        "uid": 1,
-        "title": "Dummy Project3",
-        "image": "https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg",
-        "description": "This site. Just enough to get a display with this project showing.",
-        "content": "Nothing to report yet, except this: <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'>",
-        "goals": [
-            {
-                "profile view": false
-            },
-            {
-                "main view": false
-            },
-            {
-                "side bar": true
-            },
-            {
-                "project view": false
-            },
-            {
-                "mini project view": true
-            },
-            {
-                "project data": true
-            },
-            {
-                "user data": true
-            },
-            {
-                "controllers for each view": false
-            },
-            {
-                "high five asset": false
-            }
-        ],
-        "start time": 1384490671375,
-        "end time": 1385109786160,
-        "score": 0,
-        "high_fives": 0,
-        "github": "https://bitbucket.org/emil10001/weekconcept",
-        "link": "http://weekconcepts.com"
-    },
-    {
-        "id": 4,
-        "uid": 0,
-        "title": "Dummy Project4",
-        "image": "https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg",
-        "description": "This site. Just enough to get a display with this project showing.",
-        "content": "Nothing to report yet, except this: <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'>",
-        "goals": [
-            {
-                "profile view": false
-            },
-            {
-                "main view": false
-            },
-            {
-                "side bar": true
-            },
-            {
-                "project view": false
-            },
-            {
-                "mini project view": true
-            },
-            {
-                "project data": true
-            },
-            {
-                "user data": true
-            },
-            {
-                "controllers for each view": false
-            },
-            {
-                "high five asset": false
-            }
-        ],
-        "start time": 1384490671375,
-        "end time": 1385109786160,
-        "score": 0,
-        "high_fives": 0,
-        "github": "https://bitbucket.org/emil10001/weekconcept",
-        "link": "http://weekconcepts.com"
+        "github": "https://github.com/emil10001/RedditMail",
+        "link": "https://play.google.com/store/apps/details?id=com.feigdev"
     }
 ]

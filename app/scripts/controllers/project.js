@@ -3,7 +3,7 @@
  */
 "use strict";
 
-myApp.controller('ProjectCtrl', function ($scope, $rootScope, $routeParams, Constants, ProjectService, UsersService) {
+myApp.controller('ProjectCtrl', function ($scope, $rootScope, $routeParams, socket, Constants, ProjectService, UsersService, MyProfileService) {
     $scope.projectId = $routeParams.projectId;
     $scope.project = ProjectService.getProject($scope.projectId);
     $scope.user = {};
@@ -32,6 +32,14 @@ myApp.controller('ProjectCtrl', function ($scope, $rootScope, $routeParams, Cons
             return "";
         return "#/project/" + proj.id;
     };
+    $scope.addEdit = function () {
+        //FIXME - remove projectId field
+        if (!MyProfileService.me || MyProfileService.me === {} || MyProfileService.me === undefined)
+            return;
+        $scope.project.uid = MyProfileService.me.id;
+        socket.emit(Constants.UPDATE_PROJECT, $scope.project);
+    };
+
 
     (function () {
         if (!!$scope.project) {

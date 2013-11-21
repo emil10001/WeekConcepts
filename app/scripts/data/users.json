@@ -4,16 +4,7 @@
         "username": "emil10001",
         "email": "ejohn@feigdev.com",
         "github":"https://github.com/emil10001",
-        "avatar":"https://secure.gravatar.com/avatar/bc6e3312f288a4d00ba25500a2c8f6d9",
-        "pass": "not yet!",
-        "score": 9001
-    },
-    {
-        "id": 1,
-        "username": "steve",
-        "email": "steve@feigdev.com",
-        "github":"https://github.com/steve",
-        "avatar":"http://www.yalibnan.com/wp-content/uploads/2011/02/steve-jobs1.jpg",
+        "avatar":"http://files.feigdev.com/tinyRobot2_small.png",
         "pass": "not yet!",
         "score": 9001
     }

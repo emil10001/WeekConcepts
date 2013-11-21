@@ -1,0 +1,18 @@
+<div ng-include="'views/partials/topside.html'"></div>
+<div class="mycontent">
+    <a ng-href="{{ '#/profile/' + user.id }}">
+        <div ng-include="'views/partials/miniprofile.html'"></div>
+    </a>
+
+    <div class="project">
+        <form class="simple-form">
+            Title: <input type="text" ng-model="project.title" /><br>
+            Brief Description: <input type="text" ng-model="project.description" /><br>
+            Cover Photo: <input type="text" ng-model="project.image" /><br>
+            Github: <input type="text" ng-model="project.github" /><br>
+            Link: <input type="text" ng-model="project.link" /><br>
+            Content: <input type="text-area" ng-model="project.content" /><br>
+            <button ng-click="addEdit()">Add/Edit</button>
+        </form>
+    </div>
+</div>

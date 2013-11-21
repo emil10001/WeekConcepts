@@ -18,6 +18,15 @@
             </tr>
             <tr>
                 <td>
+                    <b>Goals:</b><br>
+                    <li ng-repeat="goal in project.goals">
+                        <input type="checkbox" ng-model="goal.done">
+                        <span class="done-{{goal.done}}">{{goal.text}}</span>
+                    </li>
+                </td>
+            </tr>
+            <tr>
+                <td>
                     Score:
                     {{ project.score}}
                 </td>
