@@ -9,17 +9,43 @@
     box-shadow: 0px 5px 15px #5E5E5E;
     overflow: hidden;
     color: #fdf7f7;
-}
-
-.miniproject img {
-    display: block;
-    width:100%;
-    height:auto;
-}
-
-.miniproject table {
     width: 100%;
-    background-color: #7E8B91;
+}
+
+.responsive-container {
+    position: relative;
+    width: 100%;
+}
+
+.dummy {
+    padding-top: 100%; /* forces 1:1 aspect ratio */
+}
+
+.img-container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.centerer {
+    text-align:center; /* Align center inline elements */
+    font: 0/0 a;       /* Hide the characters like spaces */
+}
+
+.centerer:before {
+    content: ' ';
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.centered {
+    vertical-align: middle;
+    display: inline-block;
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .miniproject a {
@@ -34,6 +60,7 @@
     height: 100%;
     width: 100%;
 }
+
 .miniproject .onhover1 {
     display: none;
     background-color: #000000;
@@ -44,10 +71,11 @@
     width: 100%;
 }
 
-.miniproject:hover .onhover{
+.miniproject:hover .onhover {
     display: block;
 }
-.miniproject:hover .onhover1{
+
+.miniproject:hover .onhover1 {
     display: block;
     opacity: 0.5;
 }

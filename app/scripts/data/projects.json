@@ -125,5 +125,61 @@
         "high_fives": 0,
         "github": "https://github.com/emil10001/RedditMail",
         "link": "https://play.google.com/store/apps/details?id=com.feigdev"
+    },
+    {
+        "id": 4,
+        "uid": 0,
+        "title": "Different Kind of App",
+        "image": "http://files.feigdev.com/rr/i_fell_4_u.jpg",
+        "description": "An app for my wife that would take the place of a greeting card",
+        "content": "An app for my wife that would take the place of a greeting card.<br><img src=\"http://files.feigdev.com/rr/10_years_couple.jpg\">",
+        "goals": [
+            {
+                "text": "gather some images to use",
+                "done": true
+            },
+            {
+                "text": "write some nice things",
+                "done": true
+            },
+            {
+                "text": "create basic UI",
+                "done": true
+            }
+        ],
+        "start time": 1384490671375,
+        "end time": 1385109786160,
+        "score": 0,
+        "high_fives": 0,
+        "github": "",
+        "link": "http://www.recursiverobot.com/post/61760173180/a-different-kind-of-app"
+    },
+    {
+        "id": 3,
+        "uid": 0,
+        "title": "TiKL on Glass",
+        "image": "http://files.feigdev.com/rr/tikl.webp",
+        "description": "A proof-of-concept TiKL implementation on Google Glass",
+        "content": "A proof-of-concept TiKL implementation on Google Glass. <a href=\"http://youtu.be/xyrW4MKwi2M\">Demo Video</a>",
+        "goals": [
+            {
+                "text": "create basic UI on Glass",
+                "done": true
+            },
+            {
+                "text": "connect to TiKL servers",
+                "done": true
+            },
+            {
+                "text": "test a TiKL call",
+                "done": true
+            }
+        ],
+        "start time": 1384490671375,
+        "end time": 1385109786160,
+        "score": 0,
+        "high_fives": 0,
+        "github": "",
+        "link": "http://www.recursiverobot.com/post/62751925774/tikl-on-glass"
     }
 ]
