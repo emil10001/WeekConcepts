@@ -127,6 +127,34 @@
         "link": "https://play.google.com/store/apps/details?id=com.feigdev"
     },
     {
+        "id": 3,
+        "uid": 0,
+        "title": "TiKL on Glass",
+        "image": "http://files.feigdev.com/rr/tikl.webp",
+        "description": "A proof-of-concept TiKL implementation on Google Glass",
+        "content": "A proof-of-concept TiKL implementation on Google Glass. <a href=\"http://youtu.be/xyrW4MKwi2M\">Demo Video</a>",
+        "goals": [
+            {
+                "text": "create basic UI on Glass",
+                "done": true
+            },
+            {
+                "text": "connect to TiKL servers",
+                "done": true
+            },
+            {
+                "text": "test a TiKL call",
+                "done": true
+            }
+        ],
+        "start time": 1384490671375,
+        "end time": 1385109786160,
+        "score": 0,
+        "high_fives": 0,
+        "github": "",
+        "link": "http://www.recursiverobot.com/post/62751925774/tikl-on-glass"
+    },
+    {
         "id": 4,
         "uid": 0,
         "title": "Greeting Card",
@@ -155,23 +183,23 @@
         "link": "http://www.recursiverobot.com/post/61760173180/a-different-kind-of-app"
     },
     {
-        "id": 3,
+        "id": 5,
         "uid": 0,
-        "title": "TiKL on Glass",
-        "image": "http://files.feigdev.com/rr/tikl.webp",
-        "description": "A proof-of-concept TiKL implementation on Google Glass",
-        "content": "A proof-of-concept TiKL implementation on Google Glass. <a href=\"http://youtu.be/xyrW4MKwi2M\">Demo Video</a>",
+        "title": "Meta Art",
+        "image": "http://files.feigdev.com/art_proj/IMG_20130616_155732.jpg",
+        "description": "A fun little art project",
+        "content": "A fun little art project. A piece with a fictional story attached to it, for fun.",
         "goals": [
             {
-                "text": "create basic UI on Glass",
+                "text": "create a few pieces of crappy art",
                 "done": true
             },
             {
-                "text": "connect to TiKL servers",
+                "text": "write up a fun description",
                 "done": true
             },
             {
-                "text": "test a TiKL call",
+                "text": "arrange on wall",
                 "done": true
             }
         ],
@@ -180,6 +208,6 @@
         "score": 0,
         "high_fives": 0,
         "github": "",
-        "link": "http://www.recursiverobot.com/post/62751925774/tikl-on-glass"
+        "link": "http://www.tinyrobots.net/post/53178205273/meta-art"
     }
 ]
