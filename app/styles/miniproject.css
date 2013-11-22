@@ -30,8 +30,8 @@
 }
 
 .centerer {
-    text-align:center; /* Align center inline elements */
-    font: 0/0 a;       /* Hide the characters like spaces */
+    text-align: center; /* Align center inline elements */
+    font: 0/0 a; /* Hide the characters like spaces */
 }
 
 .centerer:before {
@@ -52,6 +52,20 @@
     color: #fdf7f7;
 }
 
+.miniproject .titleblock:before {
+    content: ' ';
+    display: block;
+    height: 100%;
+}
+
+
+.miniproject .titleblock {
+    display: block;
+    vertical-align: bottom;
+    height: 100%;
+    width: 100%;
+}
+
 .miniproject .onhover {
     display: none;
     position: absolute;
@@ -59,6 +73,7 @@
     top: 0;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .miniproject .onhover1 {
@@ -69,6 +84,7 @@
     top: 0;
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
 .miniproject:hover .onhover {
