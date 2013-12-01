@@ -5,7 +5,7 @@
         "title": "LoadTester",
         "image": "https://s3.amazonaws.com/ejf3-public/hosted_files/2013-11-26+16.14.38.png",
         "description": "An app that slows down Android test devices",
-        "content": "I created an app to make test devices do some sort of constant and predictable work in the background.Comes with an API!",
+        "content": "I created an app to make test devices do some sort of constant and predictable work in the background.Comes with an API!<br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
         "goals": [
             {
                 "text": "load CPU",
@@ -53,7 +53,7 @@
         "title": "Project0",
         "image": "https://lh6.googleusercontent.com/-8CcITalUXe8/UoWd17upwfI/AAAAAAABgbs/09gxoamduSY/w1970-h1478-no/1384488342911.jpg",
         "description": "This site. Just enough to get a display with this project showing.",
-        "content": "This site. Just enough to get a display with this project showing:<br><img src=\"http://files.feigdev.com/wc/weekconcepts.png\" width='600px'><br> <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'>",
+        "content": "This site. Just enough to get a display with this project showing:<br><img src=\"http://files.feigdev.com/wc/weekconcepts.png\" width='600px'><br> <img src=\"https://lh4.googleusercontent.com/-riFzgkSlkxI/UoWeDGkqs7I/AAAAAAABgb4/pZ5hQpX6zJ4/w1970-h1478-no/1384488362046.jpg\" width='600px'><br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
         "goals": [
             {
                 "text": "profile view",
@@ -103,7 +103,7 @@
         "title": "TiKL on Glass",
         "image": "http://files.feigdev.com/rr/tikl.webp",
         "description": "A proof-of-concept TiKL implementation on Google Glass",
-        "content": "A proof-of-concept TiKL implementation on Google Glass. <a href=\"http://youtu.be/xyrW4MKwi2M\">Demo Video</a>",
+        "content": "A proof-of-concept TiKL implementation on Google Glass. <a href=\"http://youtu.be/xyrW4MKwi2M\">Demo Video</a><br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
         "goals": [
             {
                 "text": "create basic UI on Glass",
@@ -131,7 +131,7 @@
         "title": "Greeting Card",
         "image": "http://files.feigdev.com/rr/i_fell_4_u.jpg",
         "description": "An app for my wife that would take the place of a greeting card",
-        "content": "An app for my wife that would take the place of a greeting card.<br><img src=\"http://files.feigdev.com/rr/10_years_couple.jpg\">",
+        "content": "An app for my wife that would take the place of a greeting card.<br><img src=\"http://files.feigdev.com/rr/10_years_couple.jpg\"><br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
         "goals": [
             {
                 "text": "gather some images to use",
@@ -159,7 +159,7 @@
         "title": "Meta Art",
         "image": "http://files.feigdev.com/art_proj/IMG_20130616_155732.jpg",
         "description": "A fun little art project",
-        "content": "A fun little art project. A piece with a fictional story attached to it, for fun.",
+        "content": "A fun little art project. A piece with a fictional story attached to it, for fun.<br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
         "goals": [
             {
                 "text": "create a few pieces of crappy art",
@@ -187,7 +187,7 @@
         "title": "PodRad.io",
         "image": "http://files.feigdev.com/wc/podradio.png",
         "description": "A very simple web podcast app",
-        "content": "A very simple web podcast app",
+        "content": "A very simple web podcast app<br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
         "goals": [
             {
                 "text": "list of podcasts",
@@ -224,7 +224,7 @@
         "title": "RedditMail",
         "image": "http://files.feigdev.com/wc/OrangeEnvelope_cropped.png",
         "description": "A simple Android app that checks your Reddit mailbox",
-        "content": "This is an app that handles your Reddit Mail. It gives you access to your inbox, sent items, friends list and friend's comments. You can send a message from any of the views, either directly to a user as a private message, or as a comment on a thread. Refresh happens automatically when you open the app, or you can use the icon on the action bar to manually refresh your messages. <br> <img src=\"http://files.feigdev.com/redditmail_1_login.png\" alt=\"login screenshot\" width=\"220px\"> _<img src=\"http://files.feigdev.com/redditmail_2_inbox.png\" alt=\"inbox screenshot\" width=\"220px\"> _<img src=\"http://files.feigdev.com/redditmail_3_compose.png\" alt=\"compose message screenshot\" width=\"220px\">",
+        "content": "This is an app that handles your Reddit Mail. It gives you access to your inbox, sent items, friends list and friend's comments. You can send a message from any of the views, either directly to a user as a private message, or as a comment on a thread. Refresh happens automatically when you open the app, or you can use the icon on the action bar to manually refresh your messages. <br> <img src=\"http://files.feigdev.com/redditmail_1_login.png\" alt=\"login screenshot\" width=\"220px\"> _<img src=\"http://files.feigdev.com/redditmail_2_inbox.png\" alt=\"inbox screenshot\" width=\"220px\"> _<img src=\"http://files.feigdev.com/redditmail_3_compose.png\" alt=\"compose message screenshot\" width=\"220px\"><br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
         "goals": [
             {
                 "text": "login to reddit",
