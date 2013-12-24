@@ -1,5 +1,172 @@
 [
     {
+        "id": 11,
+        "uid": 0,
+        "title": "Building Chrome Apps with AngularJS",
+        "image": "https://s3.amazonaws.com/ejf3-public/hosted_files/building_chrome_apps.png",
+        "description": "Google Developers Live presentation on building Chrome Apps using AngularJS",
+        "content": "Delivered a Google Developers Live presentation on building Chrome Apps using AngularJS. <br><a href=\"https://www.youtube.com/watch?v=BSvquSYGoXQ\">Check out the presentation on YouTube.</a><br> <a href=\"http://goo.gl/o4hRgG\">Link to presentation</a>.<br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
+        "goals": [
+            {
+                "text": "create demos to walk through",
+                "done": true
+            },
+            {
+                "text": "prepare slides",
+                "done": true
+            },
+            {
+                "text": "discuss AngularJS's event emitter",
+                "done": true
+            },
+            {
+                "text": "cover localStorage and IndexedDB",
+                "done": true
+            },
+            {
+                "text": "talk about doing XHR in a Chrome App with $http",
+                "done": true
+            },
+            {
+                "text": "describe permissions issues",
+                "done": true
+            }
+            {
+                "text": "demo PodRad.io",
+                "done": true
+            },
+        ],
+        "start time": 1386478097000,
+        "end time": 1387082897000,
+        "score": 0,
+        "high_fives": 0,
+        "github": "",
+        "link": "https://www.youtube.com/watch?v=BSvquSYGoXQ"
+    },{
+        "id": 10,
+        "uid": 0,
+        "title": "PodRad.io - P3",
+        "image": "https://s3.amazonaws.com/ejf3-public/hosted_files/podradio_chrome_logo_tile.png",
+        "description": "Port PodRad.io to a Chrome App environment",
+        "content": "Port PodRad.io to a Chrome App environment. <br><img src=\"https://s3.amazonaws.com/ejf3-public/hosted_files/podradio_chrome_screenshot_1.png\" width='600px'><br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
+        "goals": [
+            {
+                "text": "make PodRad.io work in a Chrome App environment",
+                "done": true
+            },
+            {
+                "text": "publish to webstore",
+                "done": true
+            },
+            {
+                "text": "use Angular events to deliver results",
+                "done": true
+            }
+        ],
+        "start time": 1386478097000,
+        "end time": 1387082897000,
+        "score": 0,
+        "high_fives": 0,
+        "github": "https://github.com/emil10001/podrad.io",
+        "link": "https://chrome.google.com/webstore/detail/podradio/fikgabkmkaknnlacpgpbdgmmpeoniddp"
+    },{
+        "id": 9,
+        "uid": 0,
+        "title": "PodRad.io - P2",
+        "image": "https://s3.amazonaws.com/ejf3-public/hosted_files/updated_podradio_p2.png",
+        "description": "Update PodRad.io to add playlist",
+        "content": "Update PodRad.io to add playlist, and use IndexedDB where appropriate. Also updated PodRad.io from AngularJS v1.0.5 to v1.2.24. <br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
+        "goals": [
+            {
+                "text": "Update AngularJS and dependencies",
+                "done": true
+            },
+            {
+                "text": "add playlist UI",
+                "done": true
+            },
+            {
+                "text": "add playlist serivce",
+                "done": true
+            },
+            {
+                "text": "use angular-indexeddb to back the playlist",
+                "done": true
+            },
+            {
+                "text": "get rid of pod id in the url",
+                "done": true
+            },
+            {
+                "text": "use Angular events for communication",
+                "done": true
+            }
+        ],
+        "start time": 1386132497000,
+        "end time": 1386478097000,
+        "score": 0,
+        "high_fives": 0,
+        "github": "https://github.com/emil10001/podrad.io",
+        "link": "http://podrad.io"
+    },{
+        "id": 8,
+        "uid": 0,
+        "title": "AngularJS IndexedDB",
+        "image": "https://s3.amazonaws.com/ejf3-public/hosted_files/angular_indexeddb.png",
+        "description": "An AngularJS wrapper module to wrap IndexedDB",
+        "content": "An AngularJS wrapper module to wrap IndexedDB. <br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
+        "goals": [
+            {
+                "text": "create AngularJS service",
+                "done": true
+            },
+            {
+                "text": "port IDB to Angular service",
+                "done": true
+            },
+            {
+                "text": "use Angular events to deliver results",
+                "done": true
+            }
+        ],
+        "start time": 1386564497000,
+        "end time": 1386650897000,
+        "score": 0,
+        "high_fives": 0,
+        "github": "https://github.com/emil10001/angular-indexeddb",
+        "link": ""
+    },{
+        "id": 7,
+        "uid": 0,
+        "title": "AngularJS Chrome LocalStorage",
+        "image": "https://s3.amazonaws.com/ejf3-public/hosted_files/angular_chrome_local_storage.png",
+        "description": "An AngularJS wrapper module to wrap localStorage and chrome.storage",
+        "content": "An AngularJS wrapper module to wrap localStorage and chrome.storage. <br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
+        "goals": [
+            {
+                "text": "create AngularJS service",
+                "done": true
+            },
+            {
+                "text": "determine if in Chrome App environment",
+                "done": true
+            },
+            {
+                "text": "provide functionality for both localStorage and chrome.storage",
+                "done": true
+            },
+            {
+                "text": "use Angular events to deliver results",
+                "done": true
+            }
+        ],
+        "start time": 1386564497000,
+        "end time": 1386650897000,
+        "score": 0,
+        "high_fives": 0,
+        "github": "https://github.com/emil10001/angular-chrome-localstorage",
+        "link": ""
+    },{
         "id": 6,
         "uid": 0,
         "title": "LoadTester",
