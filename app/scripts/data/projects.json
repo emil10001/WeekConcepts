@@ -2,7 +2,7 @@
     {
         "id": 11,
         "uid": 0,
-        "title": "Building Chrome Apps with AngularJS",
+        "title": "Chrome Apps and AngularJS",
         "image": "https://s3.amazonaws.com/ejf3-public/hosted_files/building_chrome_apps.png",
         "description": "Google Developers Live presentation on building Chrome Apps using AngularJS",
         "content": "Delivered a Google Developers Live presentation on building Chrome Apps using AngularJS. <br><a href=\"https://www.youtube.com/watch?v=BSvquSYGoXQ\">Check out the presentation on YouTube.</a><br> <a href=\"http://goo.gl/o4hRgG\">Link to presentation</a>.<br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
@@ -30,11 +30,11 @@
             {
                 "text": "describe permissions issues",
                 "done": true
-            }
+            },
             {
                 "text": "demo PodRad.io",
                 "done": true
-            },
+            }
         ],
         "start time": 1386478097000,
         "end time": 1387082897000,
@@ -138,7 +138,7 @@
     },{
         "id": 7,
         "uid": 0,
-        "title": "AngularJS Chrome LocalStorage",
+        "title": "Angular Chrome LocalStorage",
         "image": "https://s3.amazonaws.com/ejf3-public/hosted_files/angular_chrome_local_storage.png",
         "description": "An AngularJS wrapper module to wrap localStorage and chrome.storage",
         "content": "An AngularJS wrapper module to wrap localStorage and chrome.storage. <br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
@@ -351,7 +351,7 @@
     {
         "id": 1,
         "uid": 0,
-        "title": "PodRad.io",
+        "title": "PodRad.io - P1",
         "image": "http://files.feigdev.com/wc/podradio.png",
         "description": "A very simple web podcast app",
         "content": "A very simple web podcast app<br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
