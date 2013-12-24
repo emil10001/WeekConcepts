@@ -1,5 +1,48 @@
 [
     {
+        "id": 12,
+        "uid": 0,
+        "title": "AWS JS Samples",
+        "image": "",
+        "description": "Create a few AWS sdk samples with node.js and AngularJS",
+        "content": "Create a few AWS sdk samples with node.js and AngularJS.<br>By <a href=\"https://plus.google.com/u/0/110693175237378228684?rel=author\">E John Feig</a>",
+        "goals": [
+            {
+                "text": "create an EBS environment to run in",
+                "done": true
+            },
+            {
+                "text": "spin up an RDS instance",
+                "done": true
+            },
+            {
+                "text": "create node.js project",
+                "done": false
+            },
+            {
+                "text": "demo s3 put/get",
+                "done": false
+            },
+            {
+                "text": "demo RDS CRUD",
+                "done": false
+            },
+            {
+                "text": "demo SES email sending",
+                "done": false
+            },
+            {
+                "text": "demo Dynamo CRUD",
+                "done": false
+            }
+        ],
+        "start time": 1387774097000,
+        "end time": 0,
+        "score": 0,
+        "high_fives": 0,
+        "github": "",
+        "link": ""
+    },{
         "id": 11,
         "uid": 0,
         "title": "Chrome Apps and AngularJS",
